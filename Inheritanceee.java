@@ -1,3 +1,5 @@
+// filename Inheritanceee.java
+
 class InheritanceDemo {
     public static int add(int i, int j) {
         return i+j;
@@ -13,7 +15,7 @@ class superAdv extends Advcalc{
         return i*j;
     }
 }
-public class Poly{
+public class Inheritanceee{
     public static void main(String[] args) {
         superAdv a = new superAdv();   //HAS - A
         int res1=a.add(5,7);
